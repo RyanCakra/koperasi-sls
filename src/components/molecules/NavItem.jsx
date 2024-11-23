@@ -26,8 +26,8 @@ function NavItem({ href, text, scrolled, scale }) {
     <motion.li
       className={`transition-colors duration-300 ${scrolled ? 'text-black' : 'text-white'}`}
       style={{ scale }}
-      initial={isAboveMd ? { y: 5 } : {}} // Animasi awal hanya jika layar > md
-      animate={isAboveMd ? { y: scrolled ? -8 : 0 } : {}} // Hanya animasi jika layar > md
+      initial={isAboveMd ? { y: 5 } : {}}
+      animate={isAboveMd ? { y: scrolled ? -8 : 0 } : {}}
       transition={isAboveMd ? { duration: 0.3, delay: 0.1 } : {}}
     >
       <a href={href} className="font-semibold">

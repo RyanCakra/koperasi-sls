@@ -32,7 +32,7 @@ function Navbar() {
         style={{
           height: backgroundHeight,
         }}
-        className="absolute bg-green-400 inset-0 w-full transition-all duration-500 ease-in-out"
+        className="absolute shadow-2xl bg-green-400 inset-0 w-full transition-all duration-500 ease-in-out"
       />
 
       <div className="fixed md:mx-28 flex justify-between items-center relative z-10">

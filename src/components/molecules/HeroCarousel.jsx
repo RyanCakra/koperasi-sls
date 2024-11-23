@@ -7,17 +7,17 @@ const slides = [
   {
     title: 'Daur Ulang Sampah',
     description: 'Menjadi Produk Ramah Lingkungan',
-    image: '../src/assets/images/banner.png',
+    image: '/src/assets/images/banner.png',
   },
   {
     title: 'Bersama Koperasi SLS',
     description: 'Membangun Lingkungan yang Lebih Baik',
-    image: '../src/assets/images/sukuna.jpg',
+    image: '/src/assets/images/sukuna.jpg',
   },
   {
     title: 'Gabung Sekarang',
     description: 'Untuk Masa Depan yang Lebih Hijau',
-    image: '../src/assets/images/sigma.png',
+    image: '/src/assets/images/sigma.png',
   },
 ];
 
@@ -70,7 +70,7 @@ const HeroCarousel = () => {
   };
 
   return (
-    <section className="relative h-[80vh] w-full flex items-center justify-center overflow-hidden">
+    <section className="relative h-[78vh] w-full flex items-center justify-center overflow-hidden">
       <div className="absolute inset-0 flex">
         <AnimatePresence initial={false} custom={direction}>
           <motion.div

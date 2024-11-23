@@ -11,9 +11,9 @@ const Home = () => {
     <div className="min-h-screen bg-slswhite text-sky-300">
       <Navbar />
       <Header />
-      <main className="bg-pink-500 w-full ">
+      <main className="bg-gray-100 w-full ">
         <Section1 />
-        <Section2 />
+        {/* <Section2 /> */}
       </main>
 
       <Footer />
