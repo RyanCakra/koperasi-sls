@@ -19,7 +19,7 @@ function Section() {
             .map((_, index) => (
               <div key={index} className="relative group rounded-xl overflow-hidden">
                 {/* Gambar */}
-                <img src="/src/assets/images/sigma.png" className="w-full h-full rounded-xl object-cover" alt={`Feature ${index + 1}`} />
+                <img src="/assets/images/sigma.png" className="w-full h-full rounded-xl object-cover" alt={`Feature ${index + 1}`} />
                 {/* Overlay */}
                 <div className="absolute inset-0 bg-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center rounded-xl">
                   {/* Teks */}

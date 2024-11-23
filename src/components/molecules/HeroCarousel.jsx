@@ -7,17 +7,17 @@ const slides = [
   {
     title: 'Daur Ulang Sampah',
     description: 'Menjadi Produk Ramah Lingkungan',
-    image: '/src/assets/images/banner.png',
+    image: '/assets/images/banner.png',
   },
   {
     title: 'Bersama Koperasi SLS',
     description: 'Membangun Lingkungan yang Lebih Baik',
-    image: '/src/assets/images/sukuna.jpg',
+    image: '/assets/images/sukuna.jpg',
   },
   {
     title: 'Gabung Sekarang',
     description: 'Untuk Masa Depan yang Lebih Hijau',
-    image: '/src/assets/images/sigma.png',
+    image: '/assets/images/sigma.png',
   },
 ];
 
